@@ -1,0 +1,131 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  max-width: 1400px;
+  margin: auto;
+  padding: 20px;
+}
+li {
+  list-style: none;
+}
+nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+nav h1 {
+  font-size: 30px;
+}
+ul {
+  display: flex;
+  gap: 50px;
+}
+.sectionFirstHeader {
+  display: flex;
+  align-items: center;
+  gap: 30px;
+}
+.asideHeader {
+  display: flex;
+  flex-direction: column;
+  align-items: start;
+  gap: 30px;
+}
+.asideHeader h1 {
+  font-size: 64px;
+  font-weight: 400;
+}
+.asideHeader p {
+  font-size: 18px;
+  line-height: 28px;
+}
+.asideHeader button {
+  background-color: #E9672B;
+  padding: 17px 30px;
+  border-radius: 50px;
+  border: none;
+}
+header {
+  background-color: #FBF8F5;
+  padding: 20px;
+}
+.sectionSecondtHeader {
+  display: flex;
+  flex-direction: column;
+  gap: 50px;
+  align-items: center;
+}
+.sectionSecondtHeader h2 {
+  font-size: 45px;
+  font-weight: 400;
+}
+.sectionSecondtHeader div {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  border: 1px solid;
+  box-shadow: 2px 2px 5px 0;
+}
+.sectionSecondtHeader div p {
+  padding: 15px;
+}
+.sectionSecondtHeader aside {
+  display: flex;
+  width: 90%;
+  gap: 20px;
+  justify-content: space-between;
+}
+.articleAfterHeader {
+  width: 50%;
+  margin: auto;
+  padding: 100px 0;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 15px;
+}
+.articleAfterHeader p {
+  text-align: center;
+  line-height: 28px;
+  font-size: 18px;
+}
+.sectionMiddle {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 30px;
+}
+.sectionMiddleAside {
+  display: flex;
+  width: 40%;
+  flex-direction: column;
+  gap: 30px;
+}
+.sectionMiddleAside p {
+  font-size: 18px;
+  line-height: 28px;
+}
+.sectionMiddleAside h2 {
+  font-size: 36px;
+  font-weight: 400;
+  line-height: 44px;
+}
+.sectionMiddleRev {
+  flex-direction: row-reverse;
+}
+.withoutBorder {
+  border: none !important;
+  box-shadow: none !important;
+  padding: 20px;
+  text-align: center;
+  background-color: white;
+}
+.pFlex {
+  line-height: 28px;
+}
+.pFontWeight {
+  font-weight: 600;
+}
