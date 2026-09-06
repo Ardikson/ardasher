@@ -1,12 +1,33 @@
-# React + Vite
+# 🛋️ Modern Furniture Web Application
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+![Angular](https://img.shields.io/badge/Angular-21-dd0031?style=for-the-badge&logo=angular)
+![TypeScript](https://img.shields.io/badge/TypeScript-5.0-blue?style=for-the-badge&logo=typescript)
+![Responsive](https://img.shields.io/badge/UI-Responsive-brightgreen?style=for-the-badge)
 
-Currently, two official plugins are available:
+A dynamic e-commerce and showcase web application designed for a furniture store. The platform provides a seamless product browsing experience with clean UI, category filtering, and responsive layouts across all devices.
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+---
 
-## Expanding the ESLint configuration
+## ✨ Features
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+- **Product Catalog**: Displays furniture collections with high-quality images, descriptions, and specifications.
+- **Dynamic Filtering**: Allows users to filter items by category, room type, and price.
+- **Responsive Layout**: Optimized for desktop, tablet, and mobile viewing.
+- **Modern Architecture**: Built using Angular components, services, and TypeScript best practices.
+
+---
+
+## 🛠 Tech Stack
+
+- **Framework:** Angular 21 (Angular CLI)
+- **Language:** JavaScript / CSS / HTML
+- **Testing:** Vitest
+
+---
+
+## 🚀 Getting Started
+
+### 1. Clone repository
+```bash
+git clone [https://github.com/Ardikson/ardasher.git](https://github.com/Ardikson/ardasher.git)
+cd ardasher
